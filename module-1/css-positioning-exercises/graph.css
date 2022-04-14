@@ -1,0 +1,61 @@
+#parent {
+    background-color: mediumpurple;
+    width: 300px;
+    height: 150px;
+    position: relative;
+
+}
+
+.child {
+    background-color: darkgrey;
+    position: absolute;
+    width: 20px ;
+    bottom: 0px;
+}
+
+#child1 {
+    height: 40px;
+    left: 10px;
+}
+
+#child2 {
+    height: 100px;
+    left: 50px;
+}
+
+#child3 {
+    height: 20px;
+    left: 90px;
+
+}
+
+#child4 {
+    height: 20px;
+    left: 130px;
+
+}
+
+#child5 {
+    height: 20px;
+    left: 170px;
+
+}
+#child6 {
+    height: 20px;
+    left: 210px;
+  
+}
+.text {
+    color: black;
+    font-family: sans-serif;
+  }
+  #time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  #money {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }

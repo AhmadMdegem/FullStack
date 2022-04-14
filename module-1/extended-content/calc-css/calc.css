@@ -1,0 +1,39 @@
+body {
+  display: block;
+  margin: 0px;
+
+}
+
+.container {
+  height: 100px;
+  width: 40%;
+
+}
+
+.sub-box {
+  width: calc(40%/3);
+  height: 100px;
+  position: absolute;
+background-color: brown;
+}
+
+#ch1 {
+border: solid red;
+
+}
+
+#ch2 {
+  top: 0px;
+  left: calc(40%/3);
+  border: solid red;
+
+}
+
+#ch3 {
+  top: 0px;
+
+  border: solid red;
+  left: calc(2*(40%/3));
+
+
+}
