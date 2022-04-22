@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="margin">
+            <div class="name">
+                <label for="name">Name</label><br>
+                <input type="text" id="name">
+            </div>
+            <div class="salary">
+                <label for="salary">Desired Salary</label>
+                <label for="birthday" id="birth">Birthday</label><br>
+                <input type="number" id="sal">
+                <input type="date">
+            </div>
+            <div class="phone">
+                <label for="phone" >Phone number</label><br>
+                <input type="text" id="phone">
+
+            </div>
+        </div>
+        <bottom id="submit" type="submit" onclick="validate()"> submit </bottom>
+    </div>
+
+</body>
+
+</html>
