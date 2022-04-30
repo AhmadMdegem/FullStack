@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <script id="animals-template" type="text/x-handlebars-template">
+        <ul>
+          {{#each name}}
+            <li><p>{{this}} </p></li>
+          {{/each}}
+        </ul>
+      </script>
+    <script id="languages-template" type="text/x-handlebars-template">
+        <ul>
+          {{#each name}}
+            <li><p>{{this}}  </p></li>
+          {{/each}}
+        </ul>
+      </script>
+    <div class="menu" id="special">
+    </div>
+    <script src="multiple-templates.js"></script>
+</body>
+
+</html>
