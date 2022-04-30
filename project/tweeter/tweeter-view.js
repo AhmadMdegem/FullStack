@@ -1,5 +1,5 @@
 const Renderer = function () {
- 
+
     const renderPosts = function (posts) {
         $("#posts").empty()
         for (let post of posts) {
