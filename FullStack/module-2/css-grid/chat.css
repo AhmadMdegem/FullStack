@@ -1,0 +1,51 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "f f m m m m""f f m m m m""f f m m m m""f f m m m m""f f m m m m""f f b b b b";
+}
+
+.freinds{
+
+    grid-area: f;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows:repeat(5,1fr) ;
+}
+.bott{
+    grid-area: b;
+    display: grid;
+    grid-template-areas: "m m""s2 s1""s2 s1";
+}
+.main{
+    grid-area: m;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    position: relative;
+}
+.send{
+    
+    grid-area: s;
+    
+
+}
+
+.nf{
+
+    background-color: rgb(159, 63, 249);;
+}
+#snd1{
+    grid-area: s1;
+    
+}
+#snd2{
+    grid-area: s2;
+}
+.ms3{
+
+    background-color: aqua;
+    height: 40px;
+    display: grid;
+    justify-self: end;
+   
+}

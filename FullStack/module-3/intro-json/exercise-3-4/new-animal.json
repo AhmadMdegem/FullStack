@@ -1,0 +1,39 @@
+{
+    "name": "gray wolf",
+    "weight": {
+        "count": "37",
+        "unit": "kilograms"
+    },
+    "habitat": "Eurasia",
+    "endangered": true,
+    "diet": [
+        {
+            "food type": "deer",
+            "percentage of diet": "80"
+        },
+        {
+            "food type": "elk",
+            "percentage of diet": "10"
+        },
+        {
+            "food type": "moose",
+            "percentage of diet": "5"
+        },
+        {
+            "food type": "livestock",
+            "percentage of diet": "2"
+        },
+        {
+            "food type": "carrion",
+            "percentage of diet": "2"
+        },
+        {
+            "food type": "garbage",
+            "percentage of diet": "1"
+        }
+    ],
+    "eaten by": [
+        "grizzly"
+    ],
+    "how delicious": 2
+}
