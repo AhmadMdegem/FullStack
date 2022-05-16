@@ -13,19 +13,33 @@
 
     <script id="players-template" type="text/x-handlebars-template">
         {{#each players}}
-            <div class="grid-item">
+            <div class="grid-item" id={{personId}}>
                 <div>{{firstName}} {{lastName}} <br>
                     {{jersey}} <br>
                      <img src={{img}} alt="player-picture"> <br>
-                      {{pos}}</div>
+                      {{pos}}
+                    </div>
+                      <button class="button">Add player to Dream Team</button>
             </div>
         {{/each}}
   </script>
-
+  <script id="dreamTeam-template" type="text/x-handlebars-template">
+    {{#each players}}
+        <div class="grid-item" id={{personId}}>
+            <div>{{firstName}} {{lastName}} <br>
+                {{jersey}} <br>
+                 <img src={{img}} alt="player-picture"> <br>
+                  {{pos}}
+                </div>
+        </div>
+    {{/each}}
+</script>
 
 
     <input type="text" id="input" placeholder="Team name">
     <button onclick=getTeamPlayers()>Search</button><br>
+    <button onclick=getDreamTeam()>Dream Team</button><br>
+
     <div class="grid-container">
 
     </div>
