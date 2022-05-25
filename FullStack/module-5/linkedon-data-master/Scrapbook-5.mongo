@@ -1,0 +1,6 @@
+db.linkedon.count({
+    $or : [
+        {"previousCompanies.name": "Apple"},
+        {"currentCompany.name": "Apple"}
+    ]
+})

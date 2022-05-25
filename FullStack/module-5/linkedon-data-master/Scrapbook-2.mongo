@@ -1,0 +1,9 @@
+db.linkedon.find({
+    salary : {$gt: 25000}
+},
+{
+   "firstName": 1,
+    _id: 0,
+    salary: 1
+}
+).limit(3)

@@ -1,0 +1,6 @@
+db.linkedon.count({
+    $and : [
+        {"salary": {$lt: 7000}},
+        {"currentCompany.name": "Walmart"}
+    ]
+})
